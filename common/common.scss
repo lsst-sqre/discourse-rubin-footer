@@ -1,0 +1,35 @@
+.rubin-footer {
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin: 5rem auto 0;
+
+  // match the layout of the main content
+  max-width: calc(100% - 16px);
+  width: 1110px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem 2rem;
+  grid-gap: 2rem 2rem;
+  grid-template-areas:
+    'disclaimer disclaimer disclaimer disclaimer'
+    'financing financing financing financing'
+    'partner-logos partner-logos partner-logos partner-logos';
+}
+
+.rubin-footer-notice {
+  grid-area: disclaimer;
+}
+
+.rubin-footer-financing {
+  grid-area: financing;
+}
+
+.rubin-footer-partners {
+  grid-area: partner-logos;
+}
+
+.rubin-footer-partners img {
+  max-width: 750px;
+}
