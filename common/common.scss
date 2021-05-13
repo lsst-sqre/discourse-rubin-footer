@@ -6,26 +6,12 @@
   // match the layout of the main content
   width: $large-width;
   max-width: calc(100% - 16px);
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  gap: 2rem 2rem;
-  grid-gap: 2rem 2rem;
-  grid-template-areas:
-    'disclaimer'
-    'financing'
-    'partner-logos';
-}
-
-.rubin-footer-notice {
-  grid-area: disclaimer;
 }
 
 .rubin-footer-financing {
-  grid-area: financing;
+  margin-top: 2rem;
 }
 
 .rubin-footer-partners {
-  grid-area: partner-logos;
+  margin-top: 1rem;
 }
