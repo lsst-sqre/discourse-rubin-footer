@@ -4,8 +4,8 @@
   margin: 5rem auto 0;
 
   // match the layout of the main content
+  width: $large-width;
   max-width: calc(100% - 16px);
-  width: 1110px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
