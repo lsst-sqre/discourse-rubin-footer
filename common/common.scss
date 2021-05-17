@@ -1,0 +1,17 @@
+.rubin-footer {
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin: 5rem auto 0;
+
+  // match the layout of the main content
+  width: $large-width;
+  max-width: calc(100% - 16px);
+}
+
+.rubin-footer-financing {
+  margin-top: 4rem;
+}
+
+.rubin-footer-partners {
+  margin-top: 1rem;
+}

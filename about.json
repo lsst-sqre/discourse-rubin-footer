@@ -1,0 +1,9 @@
+{
+  "name": "Rubin Footer",
+  "about_url": "https://github.com/lsst-sqre/discourse-rubin-footer/blob/main/README.md",
+  "license_url": "https://github.com/lsst-sqre/discourse-rubin-footer/blobl/main/LICENSE",
+  "component": true,
+  "assets": {
+    "agencies": "assets/operations-lineup-black.png"
+  }
+}
