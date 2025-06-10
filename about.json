@@ -4,6 +4,6 @@
   "license_url": "https://github.com/lsst-sqre/discourse-rubin-footer/blobl/main/LICENSE",
   "component": true,
   "assets": {
-    "agencies": "assets/construction-agencies.png"
+    "agencies": "assets/rubin-partners.png"
   }
 }
