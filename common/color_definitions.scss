@@ -1,6 +1,7 @@
 $rubinImageInvert: dark-light-choose(0, 100);
 
 .rubin-footer-partners img {
-  max-width: 750px;
+  width: 100%;
+  max-width: 1024px;
   filter: invert($rubinImageInvert);
 }
